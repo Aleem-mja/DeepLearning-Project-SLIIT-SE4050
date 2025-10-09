@@ -6,7 +6,6 @@ This notebook implements a supervised text classification model using a Bidirect
 The goal is to classify movie review texts as positive or negative by capturing the semantic and contextual meaning of words within sentences.
 ### Features
 - Data preprocessing (cleaning, tokenization, lemmatization, stopword removal)
-- Word embeddings using **GloVe (Global Vectors for Word Representation)**
 - **Bidirectional LSTM** model for deep text understanding
 - Model evaluation using accuracy, precision, recall, F1-score, and confusion matrix
 - Option to test the model with **custom movie reviews**
