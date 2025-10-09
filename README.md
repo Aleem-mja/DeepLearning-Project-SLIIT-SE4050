@@ -1,8 +1,8 @@
 
 # DeepLearning-Project-SLIIT-SE4050
 ## IT22339324 - Wijerathne M A S M
-## Sentiment Analysis on Movie Reviews using Bidirectional LSTM with Pre-trained GloVe Embeddings
-This notebook implements a supervised text classification model using a Bidirectional Long Short-Term Memory (BiLSTM) neural network, enhanced with pre-trained GloVe word embeddings. <br>
+## Sentiment Analysis on Movie Reviews using Bidirectional LSTM 
+This notebook implements a supervised text classification model using a Bidirectional Long Short-Term Memory (BiLSTM) neural network.No pretrained weights are used — both the embedding and LSTM are trained on IMDB from scratch. <br>
 The goal is to classify movie review texts as positive or negative by capturing the semantic and contextual meaning of words within sentences.
 ### Features
 - Data preprocessing (cleaning, tokenization, lemmatization, stopword removal)
